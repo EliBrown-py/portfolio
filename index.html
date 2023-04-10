@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Joel Photography</title>
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap"
+      rel="stylesheet"/>
+      <link rel ="stylesheet" href="portifolio css.css">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src = "enabler.js" defer></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="index.html"
+                ><img
+                  src="Images/camera.jpg"
+                  style="width: 50px; height: 50px; border-radius: 25px"
+              /> Joel's Photography</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-5  ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item ms-start">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Services.html">Services</a>
+                  </li>
+                </ul>  
+            </div>
+        </div>
+      </nav>
+      <div class="modal" tabindex="-1" id="promotion-modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Promotion!!!</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>For a limited time only we are offering 30% off prints offer apply to orders above 20.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--slider carousel-->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Images/img-1.jpg" class="d-block w-100" alt="carousel-img1">
+            <div class="carousel-caption top-50 mt-10">
+              <h1 class ="display-1 fw-bolder text-capitalize">Portraits</h1>
+              <h5>A simple mesmerizing self portraits.</h5>
+              <div class ="slider-btn">
+                <a class="btn btn1" href="Services.html" role="button">Services</a>
+                <a class="btn btn-2" href="gallery.html" role="button">Gallery</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Images/image-1500x1200.jpg" class="d-block w-100" alt="carousel-img2">
+            <div class="carousel-caption top-50 mt-10">
+                <h1 class ="display-1 fw-bolder text-capitalize"> Detailed Portraits</h1>
+              <h5>A picture that tells a thousand word.</h5>
+              <div class ="slider-btn">
+                <a class="btn btn1" href="Services.html" role="button">Services</a>
+                <a class="btn btn-2" href="gallery.html" role="button">Gallery</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Images/image-slider1.jpg" class="d-block w-100" alt="carousel-img13">
+            <div class="carousel-caption top-50 mt-10">
+                <h1 class ="display-1 fw-bolder text-capitalize">Detailed Portraits</h1>
+              <h5>Let a picture tell your story.</h5>
+
+              <div class ="slider-btn">
+                <a class="btn btn1" href="Services.html" role="button">Services</a>
+                <a class="btn btn-2" href="gallery.html" role="button">Gallery</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </body>
+</html>
